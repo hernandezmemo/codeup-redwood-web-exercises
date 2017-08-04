@@ -1,3 +1,84 @@
-.fancy-header {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#box1{
+    font-size: 100px;
+}
+
+h1, h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    color: blue;
+}
+
+header{
+    text-align: center;
+}
+
+body{
+    background-color: #B3BCC3;
+    /*margin: 0;*/
+    /*background-image: url("../imgs/background.jpeg");*/
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.fancy-header{
     color: purple;
+    font-weight: bolder;
+}
+
+.personal-info {
+    font-size: 15px
+}
+
+div>h2 {
+    color: black;
+}
+
+#top {
+    text-decoration: none;
+    font-size: larger;
+}
+
+#top:hover{
+    text-decoration: underline;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#square:hover {
+    background-color: indianred;
+}
+
+ul li{
+    list-style: square;
+}
+
+table {
+    font-family: "Arial Black";
+}
+
+td, th {
+    padding: 10px;
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    color:black;
 }
